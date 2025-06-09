@@ -2,7 +2,7 @@
   "name": "portifoil",
   "private": true,
   "version": "0.0.0",
-  "homepage": "thiagooo14-Portifoil/",
+  "homepage": "https://thiagooo14.github.io/thiagooo14-Portifoil/",
   "type": "module",
   "scripts": {
     "dev": "vite",
