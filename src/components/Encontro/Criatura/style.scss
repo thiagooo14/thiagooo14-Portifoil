@@ -1,0 +1,102 @@
+.criatura {
+  background-color: #a8a3a3;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  &__status {
+    .criatura__text {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #333;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__input-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  &__label {
+    min-width: 80px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  &__input {
+    width: 60px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+      border-color: #2196F3;
+    }
+  }
+
+  &__controls {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  &__energy {
+    font-size: 1.5rem;
+    font-weight: 600;
+    min-width: 60px;
+    text-align: center;
+  }
+
+  &__button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s;
+    color: white;
+
+    &--confirm {
+      background-color: #4CAF50;
+      margin-top: 0.5rem;
+
+      &:hover {
+        background-color: #45A049;
+      }
+    }
+
+    &--modifier {
+      width: 30px;
+      padding: 0.25rem 0;
+      color: #000;
+      background-color: #9e99991a;
+
+      &:hover {
+        background-color: #ede9e91a;
+      }
+    }
+
+    &--edit {
+      background-color: #a8a3a3;
+
+    }
+  }
+}
