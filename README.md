@@ -1,54 +1,40 @@
-# React + TypeScript + Vite
+# Portifolio Thiago B S Tavares
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto ainda esta em andamento, com o tempo vou atualizando e adicionando mais projetos!
 
-Currently, two official plugins are available:
+## Projeto ainda não esta Deployado
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+caso queira ver o resultado dele clone o repositorio
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+git clone git@github.com:thiagooo14/thiagooo14-Portifoil.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Como instalar e rodar localmente
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Instale as dependências:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm install
 ```
+
+2. Rode o projeto em modo de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+3. Acesse no navegador:
+
+```
+http://localhost:5173
+```
+
+## Scripts disponíveis
+
+- `npm run dev` — Inicia o servidor de desenvolvimento.
+- `npm run build` — Gera a versão de produção na pasta `dist`.
+- `npm run preview` — Visualiza localmente a versão de produção.
+- `npm run lint` — Executa o linter nos arquivos do projeto.
+
+---
