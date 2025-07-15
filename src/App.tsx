@@ -5,7 +5,7 @@ import Ficha from './pages/Ficha/Ficha'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/thiagooo14-Portifoil">
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
