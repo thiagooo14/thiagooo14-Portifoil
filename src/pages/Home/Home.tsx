@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Thiago B. S Tavares</h1>
+      <h1>Thiago B. S. Tavares</h1>
       <p>Muito Prazer!, me chamo Thiago, sou desenvolvedor Full-stack, com foco em Front-End.</p>
       <p>quando tenho um tempo livre atualizo meu portifolio com alguns projetos a parte que eu faço</p>
       <button onClick={() => navigate('/ficha')}>
